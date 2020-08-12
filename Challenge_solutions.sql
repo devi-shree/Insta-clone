@@ -21,7 +21,7 @@ from users
 GROUP BY DAY;
 
 
-#Alternate COLT METHOD (Simple way)
+#Alternate METHOD (Simple way)
 select DAYNAME(created_at) AS DAY from users GROUP BY DAY;
 
 select DAYNAME(created_at)AS DAY, COUNT(*) from users GROUP BY DAY;
